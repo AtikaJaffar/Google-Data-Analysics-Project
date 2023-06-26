@@ -11,17 +11,35 @@ The objective of this script is to centralize the analysis and provide insights 
 
 **Installed below packages by running below command**
 
+
+```{r}
 install.packages("tidyverse")
+```
 
+
+```{r}
 install.packages("lubridate")
+```
 
+
+```{r}
 install.packages("janitor")
+```
 
+
+```{r}
 install.packages("dplyr")
+```
 
+
+```{r}
 install.packages("skimr")
+```
 
+
+```{r}
 install.packages("ggplot2")
+```
 
 **We loaded packages by running below library s**
 
