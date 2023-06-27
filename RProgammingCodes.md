@@ -265,9 +265,6 @@ CombinedDivvytrips %>%
 ```
 
 
-![Thetoptenmostvisitedstations](file:///C:/Project/RidesDistributionByUserType.png)
-
-
 **The number of Rides by months**
 
 ```{r}
@@ -284,10 +281,6 @@ CombinedDivvytrips %>%
   labs(title = "The number of rides by month", x = "Month", y = "Number of rides")
 
 ```
-
-
-![Thetoptenmostvisitedstations](file:///C:/Project/ThenumberofRidesbymonths.png)
-
 
 **The frequency of rides categorized by each day of the month**
 
@@ -311,9 +304,6 @@ CombinedDivvytrips %>%
 ```
 
 
-![Thetoptenmostvisitedstations](file:///C:/Project/Thefrequencyofridescategorizedbyeachdayofthemonth.png)
-
-
 **The count of rides grouped by weekdays**
 
 ```{r}
@@ -330,10 +320,6 @@ CombinedDivvytrips %>%
   geom_col(position = "dodge") +
   labs(title = "The count of rides grouped by weekdays", x = "Weekday", y = "Number of rides")
 ```
-
-
-![Thetoptenmostvisitedstations](file:///C:/Project/Thecountofridesgroupedbyweekdays.png)
-
 
 **The count of rides categorized by the hour of the day**
 
@@ -353,10 +339,6 @@ CombinedDivvytrips %>%
 
 ```
 
-
-![Thetoptenmostvisitedstations](file:///C:/Project/Thecountofridescategorizedbythehouroftheday.png)
-
-
 **The count of rides divided by hour and weekday**
 
 ```{r}
@@ -374,9 +356,6 @@ CombinedDivvytrips %>%
   labs(title = "The count of rides divided by hour and weekday", x = "Hour of the day", y = "Number of rides") +
   facet_wrap(~ day_of_Week)
 ```
-
-
-![Thetoptenmostvisitedstations](file:///C:/Project/Thecountofridesdividedbyhourandweekday.png)
 
 
 **The count of rides divided by hour, categorized into weekdays and weekends**
@@ -398,11 +377,6 @@ CombinedDivvytrips %>%
   labs(title = "The count of rides divided by hour, categorized into weekdays and weekends", x = "Hour of the day", y = "Number of rides") +
   facet_wrap(~ day_type)
 ```
-
-
-
-![Thetoptenmostvisitedstations](file:///C:/Project/Thecountofridesdividedbyhour,categorizedintoweekdaysandweekends.png)
-
 
 
 **Calculating summary statistics for the duration of rides.**
@@ -443,7 +417,6 @@ CombinedDivvytrips %>%
             mode = Mode(ride_length))
 ```
 
-
 **Visualize the distribution of ride length using box plots.**
 
 
@@ -453,12 +426,6 @@ ggplot(data = CombinedDivvytrips, aes(x = user_type, y = ride_length, fill = use
   scale_y_continuous(breaks = seq(0, 130, 10)) +
   labs(title = "Distribution of ride length", x = "User Type", y = "Length (min)")
 ```
-
-
-
-![Thetoptenmostvisitedstations](file:///C:/Project/Distributionofridelength.png)
-
-
 
 **Calculating the average ride length for each day**
 
@@ -484,11 +451,6 @@ CombinedDivvytrips %>%
   labs(title = "Calculating the average ride length for each day", x = "Day", y = "Average (min)")
 ```
 
-  
-
-![Thetoptenmostvisitedstations](file:///C:/Project/Calculatingtheaverageridelengthforeachday.png)
-
-
 
 **Calculating the average ride length for each month**
 
@@ -502,10 +464,6 @@ CombinedDivvytrips %>%
   scale_y_continuous(breaks = seq(0, 28, 2)) +
   labs(title = "Calculating the average ride length for each month", x = "Month", y = "Average (min)")
 ```
-
-
-![Thetoptenmostvisitedstations](file:///C:/Project/Calculatingtheaverageridelengthforeachmonth.png)
-
 
 **Calculating the average ride length for each day of the week**
 
@@ -525,9 +483,6 @@ CombinedDivvytrips %>%
   scale_y_continuous(breaks = seq(0, 28, 2)) +
   labs(title = "Calculating the average ride length for each day of the week", x = "Days of the week", y = "Average (min)")
 ```
-
-
-![Thetoptenmostvisitedstations](file:///C:/Project/Calculatingtheaverageridelengthforeachdayoftheweek.png)
 
 
 **Calculating the average ride length for each hour of the day**
@@ -554,11 +509,6 @@ CombinedDivvytrips %>%
   labs(title = "Calculating the average ride length for each hour of the day", x = "Hour of the day", y = "Average (min)")
 ```
 
-
-![Thetoptenmostvisitedstations](file:///C:/Project/Calculatingtheaverageridelengthforeachhouroftheday.png)
-
-
-
 **Calculating the average ride length for each hour of the day, divided by days of the week**
 
 ```{r}
@@ -577,10 +527,6 @@ CombinedDivvytrips %>%
   facet_wrap(~ day_type)
 ```
 
-
-![Thetoptenmostvisitedstations](file:///C:/Project/Calculatingtheaverageridelengthforeachhouroftheday,dividedbydaysoftheweek.png)
-
-
 **Calculating the average ride length for each hour of the day, divided by weekdays and weekends**
 
 ```{r}
@@ -598,11 +544,6 @@ CombinedDivvytrips %>%
   labs(title = "Calculating the average ride length for each hour of the day, divided by weekdays and weekends
 ", x = "Hour of the day", y = "Average (min)")
 ```
-
-
-
-![Thetoptenmostvisitedstations](file:///C:/Project/Calculatingtheaverageridelengthforeachhouroftheday,dividedbyweekdaysandweekends.png)
-
 
 **Analyzing the bike types used in the dataset**
 
@@ -623,10 +564,6 @@ CombinedDivvytrips %>%
   labs(title = "Calculating the number of bike type usages", x = "Bike type", y = "Number of bike usages")
 ```
 
-
-![Thetoptenmostvisitedstations](file:///C:/Project/Calculatingthenumberofbiketypeusages.png)
-
-
 **The number of bike type usages by user type**
 
 ```{r}
@@ -644,10 +581,6 @@ CombinedDivvytrips %>%
   geom_col(position = "dodge") +
   labs(title = "The number of bike type usages by user type", x = "User type", y = "Number of bike usages")
 ```
-
-
-![Thetoptenmostvisitedstations](file:///C:/Project/Thenumberofbiketypeusagesbyusertype.png)
-
 
 **Analyzing the relationship between bike types and average ride time**
 
@@ -668,10 +601,6 @@ CombinedDivvytrips %>%
   labs(title = "Analyzing the relationship between bike types and average ride time", y = "Average Ride Length", x = "Bike Type")
 ```
 
-  
-  
-  ![Thetoptenmostvisitedstations](file:///C:/Project/Analyzingtherelationshipbetweenbiketypesandaverageridetime.png)
-  
 
 **Analyzing the relationship between bike types and average ride time, segmented by user type**
 
@@ -692,10 +621,6 @@ CombinedDivvytrips %>%
   labs(title = "Analyzing the relationship between bike types and average ride time, segmented by user type", y = "Average Ride Length", x = "Bike Type")
 ```
 
-
-![Thetoptenmostvisitedstations](file:///C:/Project/Analyzingtherelationshipbetweenbiketypesandaverageridetimesegmentedbyusertype.png)
-
-
 **Conducting a descriptive analysis on the station data**
 
 **Unique station names in the dataset**
@@ -707,7 +632,6 @@ stations<- CombinedDivvytrips %>%
 
 print(paste("Number of stations are", nrow(stations)))
 ```
-
 
 **The most popular stations based on the number of rides started from each station**
 
@@ -727,9 +651,6 @@ pop_stations %>%
   labs(title = "The top 10 most visited stations", x = "Number of trips", y = "Station name")
 ```
 
-  
-![Thetoptenmostvisitedstations](file:///C:/Project/Thetop10mostvisitedstations.png)
-  
 
 **The most popular stations based on the number of rides started from each station, segmented by user type**
 
@@ -760,10 +681,6 @@ pu_station %>%
 ```
 
 
-
-![Thetoptenmostvisitedstations](file:///C:/Project/Thetop10mostvisitedstationsbyCasualriders.png)
-
-
 **The top 10 most visited stations by member riders**
 
 ```{r}
@@ -777,8 +694,6 @@ pu_station %>%
   labs(title = "The top 10 most visited stations by member riders", x = "Number of trips", y = "Station name")
 ```
 
-
-![Thetoptenmostvisitedstations](file:///C:/Project/Thetop10mostvisitedstationsbymemberriders.png)
 
 
 
