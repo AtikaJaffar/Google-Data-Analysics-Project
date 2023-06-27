@@ -1,8 +1,7 @@
 # Google-Data-Analysics-Project
----
 # Title: "Case Study- How does a bike-share navigate speedy success"
-# author: "Atika Rizvi"
-# date: "2023-06-27"
+
+![Cyclistic](C:/Cyclist/Cyclistic.png)
 
 # Summary
 
@@ -44,3 +43,6 @@ The analysis followed a structured approach consisting of the six primary steps 
 •	Analyze: Applying various analytical techniques and methods to extract insights from the data.
 •	Share: Communicating the findings and insights derived from the analysis effectively.
 •	Act: Taking informed actions based on the analysis results to drive decision-making and achieve desired outcomes.
+
+
+
