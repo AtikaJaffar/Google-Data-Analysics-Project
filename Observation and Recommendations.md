@@ -33,7 +33,7 @@ Casual Users:
 
 By considering these observations, we can develop targeted strategies and recommendations to improve the bike-sharing service for both Member and Casual users, leading to increased ridership and enhanced user experiences.
 
-# Targeted strategies and recommendations:
+# Targeted strategies and Recommendations:
 
 1.	Targeted Marketing Campaigns:
   
