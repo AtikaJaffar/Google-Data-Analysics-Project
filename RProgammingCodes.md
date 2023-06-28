@@ -5,8 +5,6 @@
 
 # Date: 2023-06-24
 
-# output: html_document
-
 # The objective of this script is to centralize the analysis and provide insights into the distinct usage patterns between members and casual riders of Cyclistic bikes.
 
 **Installed below packages by running below command**
