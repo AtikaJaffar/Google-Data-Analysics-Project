@@ -2,7 +2,6 @@
 ---
 # Title: "Case Study- How does a bike-share navigate speedy success"
 
-
 # Summary
 
 As a junior data analyst in the marketing team at Cyclistic, a bike-share company in Chicago, I am tasked with analyzing data to uncover insights. Cyclistic stands out among bike-share programs with its diverse offerings, including reclining bikes, hand tricycles, and cargo bikes, ensuring accessibility for individuals with disabilities and those seeking alternative options. While the majority of riders prefer traditional bikes, around 8% choose the assistive options. Riders predominantly use Cyclistic for leisure purposes, although approximately 30% utilize the bikes for daily commuting. Customers who purchase single-ride or full-day passes are considered casual riders, while those with annual memberships are recognized as Cyclistic members.
